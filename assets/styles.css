@@ -1,0 +1,85 @@
+.navbar {
+    background-color: #d2dce7;
+    padding: 1rem;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 8px;
+    display: flex; /* Ensures the container aligns content properly */
+    justify-content: center; /* Centers the buttons inside the navbar */
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0; /* Remove default margins for proper centering */
+    padding: 0; /* Remove default padding */
+    justify-content: center; /* Ensures the nav items are centered */
+    align-items: center; /* Aligns nav items vertically */
+}
+  .navbar-nav .nav-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #0b0b0b !important;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    border-radius: 5px; 
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #495057;
+    color: #fff !important;
+}
+
+
+  body {
+    background-color: #94b1dc;
+  }
+
+.header{
+    text-align: center;
+}
+
+#headshot {
+    width: 300px;
+    height: 300px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 3px solid #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 100px;
+}
+
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #d2dce7;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #495057;
+  }
+  
+  #about-me {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  #project-list{
+    display: flex;
+    justify-content: center;
+  }
